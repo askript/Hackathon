@@ -25,7 +25,7 @@
     <section class="clean-block clean-form dark">
         <div class="container">
             <div class="block-heading">
-                <form action="" method="POST">
+                <form action="choix.php" method="POST">
                     <div class="mb-3">
                         <label class="form-label" for="nickname">Nickname</label>
                         <input class="form-control item" type="text" name="nickname">
