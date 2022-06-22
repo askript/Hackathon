@@ -4,8 +4,8 @@
 ?>
 
     <section class="clean-block clean-services dark">
-        <div class="container" style="display: flex; margin-left: 0">
-            <div class="block-heading">
+        <div class="container" style="display: flex; ">
+            <div class="block-heading" style="margin-right: 250px; width: 200%;">
                 </br>
                 <h2 class="text-info">Quiz SQL</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
@@ -290,7 +290,7 @@
                 <p > Votre score est de <span id="sum"></span> sur <span id="total"></span></p>
                 </div>
             </div>
-            <div class="code-editor" style="margin-top: 90px ; margin-right: 200px; width:50%;height:100%" ></div>
+            <div class="code-editor" style="margin-top: 90px ; width:2000px;height:1500px;position: relative;" ></div>
                 <script>
                     const flask = new CodeFlask('.code-editor', {
                          language: 'js',
@@ -307,13 +307,10 @@
                         //flask.addLanguage('sql', options);
 
                     </script>
-            <div class="row">
-                <div class="col">
-                </div>
-            </div>
+
         </div>
         
-  <div id="confet" class="confet">
+   <!-- <div id="confet" class="confet">
     <div class="confetti-301"></div>
     <div class="confetti-300"></div>
     <div class="confetti-299"></div>
@@ -615,7 +612,7 @@
     <div class="confetti-3"></div>
     <div class="confetti-2"></div>
     <div class="confetti-1"></div>
-    <div class="confetti-0"></div>
-</div>
+    <div class="confetti-0"></div> 
+</div> -->
     </section>
 <?php require_once './inc/footer.php' ?>
