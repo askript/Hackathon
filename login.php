@@ -14,7 +14,6 @@
         //If we got an user registered at this nickname and he got the good password,
         //we redirect the user on the choice page so he can start is training
         if(md5($_POST['password']) == $user->password){
-            $_SESSION['auth'] = $user;
             header('Location: choix.php');
             exit();
         }else{
@@ -29,7 +28,7 @@
     <section class="clean-block clean-form dark">
         <div class="container">
             <div class="block-heading">
-                <form action="" method="POST">
+                <form action="choix.php" method="POST">
                     <div class="mb-3">
                         <label class="form-label" for="nickname">Nickname</label>
                         <input class="form-control item" type="text" name="nickname">
