@@ -55,7 +55,6 @@ let currentText  = [text1,text2,text3,text4,text5,text6];
 
 function test(f) {
     const values3 = [];
-    console.log(b2.length)
     while(x < b2.length) {
 
         let values2= "";
@@ -66,11 +65,7 @@ function test(f) {
         let t2= t1.length;
         let b1=document.getElementsByClassName('q');
         let d1=document.getElementsByClassName('q'+n);
-        console.log(d1);
-      
-        
-        
-        console.log(b1[0])
+
         
 
 
@@ -80,34 +75,28 @@ function test(f) {
         
         if (t1[i].value==1 && t1[i].checked==false) {
 
-            console.log('bouuh');
-            console.log(c1);
+
                        c1.style.cssText="color:red;"
                        rep = false;
         }   else if (t1[i].value==0 && t1[i].checked==true) {
                     c1.style.cssText="color:red;"
                     rep = false;
             }   else {
-                console.log('baaaah');
-                console.log(n);
-                console.log(i);
-                console.log(c1);
+
                  c1.style.cssText="color:green;"
                  rep = true;   
                 } 
-                console.log(rep);
+
         if (rep == true) {
-            console.log("hey");
+
 
             correction = 1;
             
       
         }   else {
 
-            console.log("h");
                 correction = 0;
-                // b1[x].style.cssText="color:green;"
-                //css red on question
+
             }
 
         if (correction == 1) {
@@ -116,8 +105,7 @@ function test(f) {
 
         } else { 
         values.push('0');
-        
-        // push inner HTML lien cours specifique 
+
         }
 
         
@@ -148,12 +136,9 @@ function test(f) {
  
     n++;
    
-//    t1 = document.getElementsByName('choix'+n);
-//    t2= t1.length;
+
    x++;
-//    b1=document.getElementsByName('q'+x);
-//    console.log(values3);
-//    values = [];
+
     }
 
     
@@ -163,9 +148,15 @@ for(let i = 0 ; i < values3.length ; i++ )
     
 }
 let doc = document.getElementById("scoreX");
-console.log(doc)
+
 doc.classList.toggle("scoreX");
 document.getElementById("total").innerHTML=values3.length;
 document.getElementById("sum").innerHTML=score1;
 //
+
+document.getElementById("earned_SQL").value = score1;
+document.getElementById("max_SQL").value = values3.length;
+
+let submit_SQL = document.querySelector('#submit_SQL')
+submit_SQL.addEventListener('click', () => submit_SQL.style.display = 'none', document.querySelector("#result").style.display = 'block')
 }

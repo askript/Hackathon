@@ -265,7 +265,14 @@
                     </div>
                     </form>
                 <br>
-                <div class="btn-group" role="group"><a class="btn btn-primary active" role="button" onclick="test()" >Soumettre</a></div>
+                <div id="submit_SQL" class="btn-group" role="group"><a class="btn btn-primary active" role="button" onclick="test()" >Soumettre</a></div>
+                <div id="result" style="display:none">
+                    <form action="result_SQL.php" method="get">
+                        <input type="hidden" value='' name='earned_SQL' id='earned_SQL'>
+                        <input type="hidden" value='' name='max_SQL' id='max_SQL'>
+                        <button type="submit" class="btn btn-success">Enregistrez votre résultat</button>
+                    </form>
+                </div>
                 <br>
                 <hr>
                 <br>
@@ -281,4 +288,4 @@
         </div>
     </section>
 
-<?php require_once './inc/footer.php' ?>
+<?php require './inc/footer.php' ?>

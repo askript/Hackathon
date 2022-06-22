@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 21, 2022 at 02:33 AM
+-- Generation Time: Jun 22, 2022 at 03:43 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.0
 
@@ -30,13 +30,21 @@ SET time_zone = "+00:00";
 CREATE TABLE `results` (
   `id` int(11) NOT NULL,
   `nickname` varchar(255) NOT NULL,
-  `earned_SQL` int(11) NOT NULL,
-  `max_SQL` int(11) NOT NULL,
-  `earned_algroritmy` int(11) NOT NULL,
-  `max_algroritmy` int(11) NOT NULL,
-  `earned_programation` int(11) NOT NULL,
-  `max_programation` int(11) NOT NULL
+  `earned_SQL` int(11) DEFAULT NULL,
+  `max_SQL` int(11) DEFAULT NULL,
+  `earned_algo` int(11) DEFAULT NULL,
+  `max_algo` int(11) DEFAULT NULL,
+  `earned_prog` int(11) DEFAULT NULL,
+  `max_prog` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `results`
+--
+
+INSERT INTO `results` (`id`, `nickname`, `earned_SQL`, `max_SQL`, `earned_algo`, `max_algo`, `earned_prog`, `max_prog`) VALUES
+(1, 'Lyzard', 2, 2, NULL, NULL, NULL, NULL),
+(3, 'a', NULL, NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -55,7 +63,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `nickname`, `password`) VALUES
-(4, 'Lyzard', '0a5b3913cbc9a9092311630e869b4442');
+(4, 'Lyzard', '0a5b3913cbc9a9092311630e869b4442'),
+(11, 'a', '0cc175b9c0f1b6a831c399e269772661');
 
 --
 -- Indexes for dumped tables
@@ -81,13 +90,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `results`
 --
 ALTER TABLE `results`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
