@@ -266,11 +266,11 @@
                 </form>
                 <br>
                 <div id="submit_SQL" class="btn-group" role="group"><a class="btn btn-primary active" role="button" onclick="test()" >Soumettre</a></div>
-                    <div id="result_SQL" style="display:none">
+                    <div id="result" style="display:none">
                         <form action="result_SQL.php" method="get">
                             <input type="hidden" value='' name='earned_SQL' id='earned_SQL'>
                             <input type="hidden" value='' name='max_SQL' id='max_SQL'>
-                            <button type="submit" class="btn btn-success">Enregistrer votre résultat</button>
+                            <button type="submit" class="btn btn-success">Enregistrez votre résultat</button>
                         </form>
                     </div>
                 <br>
@@ -278,16 +278,7 @@
                 <br>
                     <div id="scoreX" class="scoreX btn-group" role="group"><a class="btn btn-primary active" role="button" href="Score.php" >Historique Scores</a></div>
                         <p > Votre score est de <span id="sum"></span> sur <span id="total"></span> </p>
-                </div>
-                
-
-                <div id="result" style="display:none">
-                    <form action="result_SQL.php" method="get">
-                        <input type="hidden" value='' name='earned_SQL' id='earned_SQL'>
-                        <input type="hidden" value='' name='max_SQL' id='max_SQL'>
-                        <button type="submit" class="btn btn-success">Enregistrez votre résultat</button>
-                    </form>
-                </div>
+                </div>  
                 <br>
                 <hr>
                 <br>
