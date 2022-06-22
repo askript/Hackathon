@@ -1,7 +1,10 @@
-<?php require_once './inc/header.php'; ?>
+<?php 
+    session_start();
+    require_once './inc/header.php';
+?>
 
 <?php
-    if(!empty($_POST['nickname']) && !empty($_POST['password'])){
+    if(!empty($_POST) && !empty($_POST['nickname']) && !empty($_POST['password'])){
         require_once './inc/db.php';
         //We get the info of the nickname the user asked to login
         $req = $pdo->prepare('SELECT * FROM users WHERE nickname = :nickname');

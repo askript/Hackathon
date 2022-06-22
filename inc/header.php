@@ -29,7 +29,7 @@
                 <ul class="navbar-nav ms-auto">
                     <?php if(isset($_SESSION['auth'])): ?>
                         <li class="nav-item"><a class="nav-link active" href="logout.php">Logout</a></li>
-                        <?php echo "<span style='color:green'>" . $_SESSION['auth']->nickname . "</span>" ?>
+                        <?php echo "<span style='color:green;cursor:default;'>" . $_SESSION['auth']->nickname . "</span>" ?>
                     <?php else: ?>
                         <li class="nav-item"><a class="nav-link active" href="login.php">Login</a></li>
                         <li class="nav-item"><a class="nav-link active" href="register.php">Register</a></li>
