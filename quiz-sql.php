@@ -1,4 +1,4 @@
-<?php
+<?php 
     session_start();
     require_once './inc/header.php'; 
 ?>
@@ -22,8 +22,8 @@
                         <B>Question 2:</B>
                         Quelle instruction SQL est utilisée pour extraire des données d'une base de données ?<BR>
                          <div name="q" class="q q1">
-                            <br><input type="checkbox" name="choix1" value=1><label id="1l0">OPEN</label> 
-                            <br><input type="checkbox" name="choix1" value=0><label id="1l1">EXTRACT</label> 
+                            <br><input type="checkbox" name="choix1" value=0><label id="1l0">OPEN</label> 
+                            <br><input type="checkbox" name="choix1" value=1><label id="1l1">EXTRACT</label> 
                             <br><input type="checkbox" name="choix1" value=0><label id="1l2">SELECT</label> 
                             <br><input type="checkbox" name="choix1" value=0><label id="1l3">GET</label> 
                             <br><br>
@@ -40,8 +40,8 @@
                         <B>Question 4:</B>
                         Quelle instruction SQL est utilisée pour supprimer des données d'une base de données ?<BR>
                          <div name="q" class="q q3">
-                            <br><input type="checkbox" name="choix3" value=1><label id="3l0">COLLAPS</label> 
-                            <br><input type="checkbox" name="choix3" value=0><label id="3l1">DELETE</label> 
+                            <br><input type="checkbox" name="choix3" value=0><label id="3l0">COLLAPS</label> 
+                            <br><input type="checkbox" name="choix3" value=1><label id="3l1">DELETE</label> 
                             <br><input type="checkbox" name="choix3" value=0><label id="3l2">REMOVE</label> 
                             <br><br>
                         </div> 
@@ -57,16 +57,16 @@
                         <B>Question 6:</B>
                         Avec SQL, comment sélectionnez-vous une colonne nommée "FirstName" dans une table nommée "Persons" ?<BR>
                          <div name="q" class="q q5">
-                            <br><input type="checkbox" name="choix5" value=1><label id="5l0">SELECT Persons.FirstName</label> 
+                            <br><input type="checkbox" name="choix5" value=0><label id="5l0">SELECT Persons.FirstName</label> 
                             <br><input type="checkbox" name="choix5" value=0><label id="5l1">EXTRACT FirstName FROM Persons</label> 
-                            <br><input type="checkbox" name="choix5" value=0><label id="5l2">SELECT FirstName FROM Personsx</label> 
+                            <br><input type="checkbox" name="choix5" value=1><label id="5l2">SELECT FirstName FROM Personsx</label> 
                             <br><br>
                         </div> 
                         <B>Question 7:</B>
                         Avec SQL, comment sélectionner toutes les colonnes d'une table nommée "Persons" ?<BR>
                          <div name="q" class="q q6">
-                            <br><input type="checkbox" name="choix6" value=1><label id="6l0">SELECT *.PersonS</label> 
-                            <br><input type="checkbox" name="choix6" value=0><label id="6l1">SELECT * FROM Persons</label> 
+                            <br><input type="checkbox" name="choix6" value=0><label id="6l0">SELECT *.PersonS</label> 
+                            <br><input type="checkbox" name="choix6" value=1><label id="6l1">SELECT * FROM Persons</label> 
                             <br><input type="checkbox" name="choix6" value=0><label id="6l2">SELECT [all] FROM Persons</label> 
                             <br><input type="checkbox" name="choix6" value=0><label id="6l3">SELECT Persons</label> 
                             <br><br>
@@ -108,33 +108,33 @@
                         <B>Question 12:</B>
                         Avec SQL, comment sélectionnez-vous tous les enregistrements d'une table nommée "Persons" où le "LastName" est alphabétiquement compris entre (et y compris) "Hansen" et "Pettersen" ?<BR>
                          <div name="q" class="q q11">
-                            <br><input type="checkbox" name="choix11" value=1><label id="11l0">SELECT * FROM Persons WHERE LastName >’Hansen’ AND LastName<’Pettersen’</label> 
-                            <br><input type="checkbox" name="choix11" value=0><label id="11l1">SELECT * FROM Persons WHERE LastName BETWEEN’ Hansen’ AND ’Pettersen</label> 
+                            <br><input type="checkbox" name="choix11" value=0><label id="11l0">SELECT * FROM Persons WHERE LastName >’Hansen’ AND LastName<’Pettersen’</label> 
+                            <br><input type="checkbox" name="choix11" value=1><label id="11l1">SELECT * FROM Persons WHERE LastName BETWEEN’ Hansen’ AND ’Pettersen</label> 
                             <br><input type="checkbox" name="choix11" value=0><label id="11l2">SELECT LastName >’Hansen’ AND LastName<’Pettersen’ FROM Person</label> 
                             <br><br>
                         </div> 
                         <B>Question 13:</B>
                         Quelle instruction SQL est utilisée pour renvoyer uniquement des valeurs différentes ?<BR>
                          <div name="q" class="q q12">
-                            <br><input type="checkbox" name="choix12" value=1><label id="12l0">SELECT UNIQUEx</label> 
-                            <br><input type="checkbox" name="choix12" value=0><label id="12l1">SELECT DISTINCT</label> 
+                            <br><input type="checkbox" name="choix12" value=0><label id="12l0">SELECT UNIQUEx</label> 
+                            <br><input type="checkbox" name="choix12" value=1><label id="12l1">SELECT DISTINCT</label> 
                             <br><input type="checkbox" name="choix12" value=0><label id="12l2">SELECT DIFFERENT</label> 
                             <br><br>
                         </div> 
                         <B>Question 14:</B>
                         Quel mot-clé SQL est utilisé pour trier le jeu de résultats ?<BR>
                          <div name="q" class="q q13">
-                            <br><input type="checkbox" name="choix13" value=1><label id="13l0">ORDER</label> 
+                            <br><input type="checkbox" name="choix13" value=0><label id="13l0">ORDER</label> 
                             <br><input type="checkbox" name="choix13" value=0><label id="13l1">SORT</label> 
-                            <br><input type="checkbox" name="choix13" value=0><label id="13l2">ORDER BY</label> 
+                            <br><input type="checkbox" name="choix13" value=1><label id="13l2">ORDER BY</label> 
                             <br><input type="checkbox" name="choix13" value=0><label id="13l3">SORT BY</label> 
                             <br><br>
                         </div> 
                         <B>Question 15:</B>
                         Avec SQL, comment pouvez-vous renvoyer tous les enregistrements d'une table nommée "Persons" triés par ordre décroissant de "FirstName" ?<BR>
                          <div name="q" class="q q14">
-                            <br><input type="checkbox" name="choix14" value=1><label id="14l0">SELECT * FROM Persons ORDER FirstName DESC</label> 
-                            <br><input type="checkbox" name="choix14" value=0><label id="14l1">SELECT * FROM Persons ORDER BY FirstName DESC</label> 
+                            <br><input type="checkbox" name="choix14" value=0><label id="14l0">SELECT * FROM Persons ORDER FirstName DESC</label> 
+                            <br><input type="checkbox" name="choix14" value=1><label id="14l1">SELECT * FROM Persons ORDER BY FirstName DESC</label> 
                             <br><input type="checkbox" name="choix14" value=0><label id="14l2">SELECT * FROM Persons SORT ‘FirstName’ DESC</label> 
                             <br><input type="checkbox" name="choix14" value=0><label id="14l3">SELECT * FROM Persons SORT BY ‘FirstName’ DESC</label> 
                             <br><br>
@@ -142,17 +142,17 @@
                         <B>Question 16:</B>
                         Avec SQL, comment insérer un nouvel enregistrement dans la table "Persons" ?<BR>
                          <div name="q" class="q q15">
-                            <br><input type="checkbox" name="choix15" value=1><label id="15l0">INSERT (‘Jimmy’, ’Jackson’) INTO Persons</label> 
-                            <br><input type="checkbox" name="choix15" value=0><label id="15l1">INSERT INTO Persons VALUES (‘Jimmy’, ’Jackson’)</label> 
+                            <br><input type="checkbox" name="choix15" value=0><label id="15l0">INSERT (‘Jimmy’, ’Jackson’) INTO Persons</label> 
+                            <br><input type="checkbox" name="choix15" value=1><label id="15l1">INSERT INTO Persons VALUES (‘Jimmy’, ’Jackson’)</label> 
                             <br><input type="checkbox" name="choix15" value=0><label id="15l2">INSERT VALUES (‘Jimmy’, ’Jackson’) INTO PersonS</label> 
                             <br><br>
                         </div> 
                         <B>Question 17:</B>
                         Avec SQL, comment pouvez-vous insérer "Olsen" comme "LastName" dans la table "Persons" ?<BR>
                          <div name="q" class="q q16">
-                            <br><input type="checkbox" name="choix16" value=1><label id="16l0">INSERT INTO Persons (‘Olsen’) INTO LastName</label> 
+                            <br><input type="checkbox" name="choix16" value=0><label id="16l0">INSERT INTO Persons (‘Olsen’) INTO LastName</label> 
                             <br><input type="checkbox" name="choix16" value=0><label id="16l1">INSERT (‘Olsen’) INTO Persons (LastName</label> 
-                            <br><input type="checkbox" name="choix16" value=0><label id="16l2">INSERT INTO Persons (LastName) VALUES (‘Olsen’)</label> 
+                            <br><input type="checkbox" name="choix16" value=1><label id="16l2">INSERT INTO Persons (LastName) VALUES (‘Olsen’)</label> 
                             <br><br>
                         </div> 
                         <B>Question 18:</B>
@@ -167,34 +167,34 @@
                         <B>Question 19:</B>
                         Avec SQL, comment pouvez-vous supprimer les enregistrements où le "FirstName" est "Peter" dans la table Persons ?<BR>
                          <div name="q" class="q q18">
-                            <br><input type="checkbox" name="choix18" value=1><label id="18l0">DELETE ROW FirstName= ‘Peter’ FROM Persons</label> 
+                            <br><input type="checkbox" name="choix18" value=0><label id="18l0">DELETE ROW FirstName= ‘Peter’ FROM Persons</label> 
                             <br><input type="checkbox" name="choix18" value=0><label id="18l1">DELETE FirstName=’Peter” From Persons</label> 
-                            <br><input type="checkbox" name="choix18" value=0><label id="18l2">DELETE FROM Persons WHERE FisrtName =’Peter’</label> 
+                            <br><input type="checkbox" name="choix18" value=1><label id="18l2">DELETE FROM Persons WHERE FisrtName =’Peter’</label> 
                             <br><br>
                         </div> 
                         <B>Question 20:</B>
                         Avec SQL, comment renvoyer le nombre d'enregistrements dans la table "Persons" ?<BR>
                          <div name="q" class="q q19">
-                            <br><input type="checkbox" name="choix19" value=1><label id="19l0">SELECT COLUMNS(*) FROM Persons</label> 
+                            <br><input type="checkbox" name="choix19" value=0><label id="19l0">SELECT COLUMNS(*) FROM Persons</label> 
                             <br><input type="checkbox" name="choix19" value=0><label id="19l1">SELECT LEN(*) FROM Persons</label> 
                             <br><input type="checkbox" name="choix19" value=0><label id="19l2">SELECT NO(*) FROM Persons</label> 
-                            <br><input type="checkbox" name="choix19" value=0><label id="19l3">SELECT COUNT(*) FROM Persons</label> 
+                            <br><input type="checkbox" name="choix19" value=1><label id="19l3">SELECT COUNT(*) FROM Persons</label> 
                             <br><br>
                         </div> 
                         <B>Question 21:</B>
                         Quel est le type de jointure le plus courant ?<BR>
                          <div name="q" class="q q20">
-                            <br><input type="checkbox" name="choix20" value=1><label id="20l0">JOINED</label> 
+                            <br><input type="checkbox" name="choix20" value=0><label id="20l0">JOINED</label> 
                             <br><input type="checkbox" name="choix20" value=0><label id="20l1">JOINED TABLE</label> 
-                            <br><input type="checkbox" name="choix20" value=0><label id="20l2">INNER JOIN</label> 
+                            <br><input type="checkbox" name="choix20" value=1><label id="20l2">INNER JOIN</label> 
                             <br><input type="checkbox" name="choix20" value=0><label id="20l3">INSIDE JOIN</label> 
                             <br><br>
                         </div> 
                         <B>Question 22:</B>
                         Quel opérateur est utilisé pour sélectionner des valeurs dans une plage ?<BR>
                          <div name="q" class="q q21">
-                            <br><input type="checkbox" name="choix21" value=1><label id="21l0">RANGE</label> 
-                            <br><input type="checkbox" name="choix21" value=0><label id="21l1">BETWEEN</label> 
+                            <br><input type="checkbox" name="choix21" value=0><label id="21l0">RANGE</label> 
+                            <br><input type="checkbox" name="choix21" value=1><label id="21l1">BETWEEN</label> 
                             <br><input type="checkbox" name="choix21" value=0><label id="21l2">WITHIN</label> 
                             <br><br>
                         </div> 
@@ -208,8 +208,8 @@
                         <B>Question 24:</B>
                         Quel opérateur est utilisé pour rechercher un modèle spécifié dans une colonne ?<BR>
                          <div name="q" class="q q23">
-                            <br><input type="checkbox" name="choix23" value=1><label id="23l0">FROM</label> 
-                            <br><input type="checkbox" name="choix23" value=0><label id="23l1">LIKE</label> 
+                            <br><input type="checkbox" name="choix23" value=0><label id="23l0">FROM</label> 
+                            <br><input type="checkbox" name="choix23" value=1><label id="23l1">LIKE</label> 
                             <br><input type="checkbox" name="choix23" value=0><label id="23l2">GET</label> 
                             <br><br>
                         </div> 
@@ -287,10 +287,10 @@
                 <br>
                 <div id="scoreX" class="scoreX btn-group" role="group"><a class="btn btn-primary active" role="button" href="Score.php" >Historique Scores</a>
                 <br>
-                <p> Votre score est de <span id="sum"></span> sur <span id="total"></span></p>
+                <p > Votre score est de <span id="sum"></span> sur <span id="total"></span></p>
                 </div>
             </div>
-            <div class="code-editor" style="margin-top: 90px ; margin-right: 200px; height:100%" ></div>
+            <div class="code-editor" style="margin-top: 90px ; margin-right: 200px; width:50%;height:100%" ></div>
                 <script>
                     const flask = new CodeFlask('.code-editor', {
                          language: 'js',
@@ -312,5 +312,310 @@
                 </div>
             </div>
         </div>
+        
+  <div id="confet" class="confet">
+    <div class="confetti-301"></div>
+    <div class="confetti-300"></div>
+    <div class="confetti-299"></div>
+    <div class="confetti-298"></div>
+    <div class="confetti-297"></div>
+    <div class="confetti-296"></div>
+    <div class="confetti-295"></div>
+    <div class="confetti-294"></div>
+    <div class="confetti-293"></div>
+    <div class="confetti-292"></div>
+    <div class="confetti-291"></div>
+    <div class="confetti-290"></div>
+    <div class="confetti-289"></div>
+    <div class="confetti-288"></div>
+    <div class="confetti-287"></div>
+    <div class="confetti-286"></div>
+    <div class="confetti-285"></div>
+    <div class="confetti-284"></div>
+    <div class="confetti-283"></div>
+    <div class="confetti-282"></div>
+    <div class="confetti-281"></div>
+    <div class="confetti-280"></div>
+    <div class="confetti-279"></div>
+    <div class="confetti-278"></div>
+    <div class="confetti-277"></div>
+    <div class="confetti-276"></div>
+    <div class="confetti-275"></div>
+    <div class="confetti-274"></div>
+    <div class="confetti-273"></div>
+    <div class="confetti-272"></div>
+    <div class="confetti-271"></div>
+    <div class="confetti-270"></div>
+    <div class="confetti-269"></div>
+    <div class="confetti-268"></div>
+    <div class="confetti-267"></div>
+    <div class="confetti-266"></div>
+    <div class="confetti-265"></div>
+    <div class="confetti-264"></div>
+    <div class="confetti-263"></div>
+    <div class="confetti-262"></div>
+    <div class="confetti-261"></div>
+    <div class="confetti-260"></div>
+    <div class="confetti-259"></div>
+    <div class="confetti-258"></div>
+    <div class="confetti-257"></div>
+    <div class="confetti-256"></div>
+    <div class="confetti-255"></div>
+    <div class="confetti-254"></div>
+    <div class="confetti-253"></div>
+    <div class="confetti-252"></div>
+    <div class="confetti-251"></div>
+    <div class="confetti-250"></div>
+    <div class="confetti-249"></div>
+    <div class="confetti-248"></div>
+    <div class="confetti-247"></div>
+    <div class="confetti-246"></div>
+    <div class="confetti-245"></div>
+    <div class="confetti-244"></div>
+    <div class="confetti-243"></div>
+    <div class="confetti-242"></div>
+    <div class="confetti-241"></div>
+    <div class="confetti-240"></div>
+    <div class="confetti-239"></div>
+    <div class="confetti-238"></div>
+    <div class="confetti-237"></div>
+    <div class="confetti-236"></div>
+    <div class="confetti-235"></div>
+    <div class="confetti-234"></div>
+    <div class="confetti-233"></div>
+    <div class="confetti-232"></div>
+    <div class="confetti-231"></div>
+    <div class="confetti-230"></div>
+    <div class="confetti-229"></div>
+    <div class="confetti-228"></div>
+    <div class="confetti-227"></div>
+    <div class="confetti-226"></div>
+    <div class="confetti-225"></div>
+    <div class="confetti-224"></div>
+    <div class="confetti-223"></div>
+    <div class="confetti-222"></div>
+    <div class="confetti-221"></div>
+    <div class="confetti-220"></div>
+    <div class="confetti-219"></div>
+    <div class="confetti-218"></div>
+    <div class="confetti-217"></div>
+    <div class="confetti-216"></div>
+    <div class="confetti-215"></div>
+    <div class="confetti-214"></div>
+    <div class="confetti-213"></div>
+    <div class="confetti-212"></div>
+    <div class="confetti-211"></div>
+    <div class="confetti-210"></div>
+    <div class="confetti-209"></div>
+    <div class="confetti-208"></div>
+    <div class="confetti-207"></div>
+    <div class="confetti-206"></div>
+    <div class="confetti-205"></div>
+    <div class="confetti-204"></div>
+    <div class="confetti-203"></div>
+    <div class="confetti-202"></div>
+    <div class="confetti-201"></div>
+    <div class="confetti-200"></div>
+    <div class="confetti-199"></div>
+    <div class="confetti-198"></div>
+    <div class="confetti-197"></div>
+    <div class="confetti-196"></div>
+    <div class="confetti-195"></div>
+    <div class="confetti-194"></div>
+    <div class="confetti-193"></div>
+    <div class="confetti-192"></div>
+    <div class="confetti-191"></div>
+    <div class="confetti-190"></div>
+    <div class="confetti-189"></div>
+    <div class="confetti-188"></div>
+    <div class="confetti-187"></div>
+    <div class="confetti-186"></div>
+    <div class="confetti-185"></div>
+    <div class="confetti-184"></div>
+    <div class="confetti-183"></div>
+    <div class="confetti-182"></div>
+    <div class="confetti-181"></div>
+    <div class="confetti-180"></div>
+    <div class="confetti-179"></div>
+    <div class="confetti-178"></div>
+    <div class="confetti-177"></div>
+    <div class="confetti-176"></div>
+    <div class="confetti-175"></div>
+    <div class="confetti-174"></div>
+    <div class="confetti-173"></div>
+    <div class="confetti-172"></div>
+    <div class="confetti-171"></div>
+    <div class="confetti-170"></div>
+    <div class="confetti-169"></div>
+    <div class="confetti-168"></div>
+    <div class="confetti-167"></div>
+    <div class="confetti-166"></div>
+    <div class="confetti-165"></div>
+    <div class="confetti-164"></div>
+    <div class="confetti-163"></div>
+    <div class="confetti-162"></div>
+    <div class="confetti-161"></div>
+    <div class="confetti-160"></div>
+    <div class="confetti-159"></div>
+    <div class="confetti-158"></div>
+    <div class="confetti-157"></div>
+    <div class="confetti-156"></div>
+    <div class="confetti-155"></div>
+    <div class="confetti-154"></div>
+    <div class="confetti-153"></div>
+    <div class="confetti-152"></div>
+    <div class="confetti-151"></div>
+    <div class="confetti-150"></div>
+    <div class="confetti-149"></div>
+    <div class="confetti-148"></div>
+    <div class="confetti-147"></div>
+    <div class="confetti-146"></div>
+    <div class="confetti-145"></div>
+    <div class="confetti-144"></div>
+    <div class="confetti-143"></div>
+    <div class="confetti-142"></div>
+    <div class="confetti-141"></div>
+    <div class="confetti-140"></div>
+    <div class="confetti-139"></div>
+    <div class="confetti-138"></div>
+    <div class="confetti-137"></div>
+    <div class="confetti-136"></div>
+    <div class="confetti-135"></div>
+    <div class="confetti-134"></div>
+    <div class="confetti-133"></div>
+    <div class="confetti-132"></div>
+    <div class="confetti-131"></div>
+    <div class="confetti-130"></div>
+    <div class="confetti-129"></div>
+    <div class="confetti-128"></div>
+    <div class="confetti-127"></div>
+    <div class="confetti-126"></div>
+    <div class="confetti-125"></div>
+    <div class="confetti-124"></div>
+    <div class="confetti-123"></div>
+    <div class="confetti-122"></div>
+    <div class="confetti-121"></div>
+    <div class="confetti-120"></div>
+    <div class="confetti-119"></div>
+    <div class="confetti-118"></div>
+    <div class="confetti-117"></div>
+    <div class="confetti-116"></div>
+    <div class="confetti-115"></div>
+    <div class="confetti-114"></div>
+    <div class="confetti-113"></div>
+    <div class="confetti-112"></div>
+    <div class="confetti-111"></div>
+    <div class="confetti-110"></div>
+    <div class="confetti-109"></div>
+    <div class="confetti-108"></div>
+    <div class="confetti-107"></div>
+    <div class="confetti-106"></div>
+    <div class="confetti-105"></div>
+    <div class="confetti-104"></div>
+    <div class="confetti-103"></div>
+    <div class="confetti-102"></div>
+    <div class="confetti-101"></div>
+    <div class="confetti-100"></div>
+    <div class="confetti-99"></div>
+    <div class="confetti-98"></div>
+    <div class="confetti-97"></div>
+    <div class="confetti-96"></div>
+    <div class="confetti-95"></div>
+    <div class="confetti-94"></div>
+    <div class="confetti-93"></div>
+    <div class="confetti-92"></div>
+    <div class="confetti-91"></div>
+    <div class="confetti-90"></div>
+    <div class="confetti-89"></div>
+    <div class="confetti-88"></div>
+    <div class="confetti-87"></div>
+    <div class="confetti-86"></div>
+    <div class="confetti-85"></div>
+    <div class="confetti-84"></div>
+    <div class="confetti-83"></div>
+    <div class="confetti-82"></div>
+    <div class="confetti-81"></div>
+    <div class="confetti-80"></div>
+    <div class="confetti-79"></div>
+    <div class="confetti-78"></div>
+    <div class="confetti-77"></div>
+    <div class="confetti-76"></div>
+    <div class="confetti-75"></div>
+    <div class="confetti-74"></div>
+    <div class="confetti-73"></div>
+    <div class="confetti-72"></div>
+    <div class="confetti-71"></div>
+    <div class="confetti-70"></div>
+    <div class="confetti-69"></div>
+    <div class="confetti-68"></div>
+    <div class="confetti-67"></div>
+    <div class="confetti-66"></div>
+    <div class="confetti-65"></div>
+    <div class="confetti-64"></div>
+    <div class="confetti-63"></div>
+    <div class="confetti-62"></div>
+    <div class="confetti-61"></div>
+    <div class="confetti-60"></div>
+    <div class="confetti-59"></div>
+    <div class="confetti-58"></div>
+    <div class="confetti-57"></div>
+    <div class="confetti-56"></div>
+    <div class="confetti-55"></div>
+    <div class="confetti-54"></div>
+    <div class="confetti-53"></div>
+    <div class="confetti-52"></div>
+    <div class="confetti-51"></div>
+    <div class="confetti-50"></div>
+    <div class="confetti-49"></div>
+    <div class="confetti-48"></div>
+    <div class="confetti-47"></div>
+    <div class="confetti-46"></div>
+    <div class="confetti-45"></div>
+    <div class="confetti-44"></div>
+    <div class="confetti-43"></div>
+    <div class="confetti-42"></div>
+    <div class="confetti-41"></div>
+    <div class="confetti-40"></div>
+    <div class="confetti-39"></div>
+    <div class="confetti-38"></div>
+    <div class="confetti-37"></div>
+    <div class="confetti-36"></div>
+    <div class="confetti-35"></div>
+    <div class="confetti-34"></div>
+    <div class="confetti-33"></div>
+    <div class="confetti-32"></div>
+    <div class="confetti-31"></div>
+    <div class="confetti-30"></div>
+    <div class="confetti-29"></div>
+    <div class="confetti-28"></div>
+    <div class="confetti-27"></div>
+    <div class="confetti-26"></div>
+    <div class="confetti-25"></div>
+    <div class="confetti-24"></div>
+    <div class="confetti-23"></div>
+    <div class="confetti-22"></div>
+    <div class="confetti-21"></div>
+    <div class="confetti-20"></div>
+    <div class="confetti-19"></div>
+    <div class="confetti-18"></div>
+    <div class="confetti-17"></div>
+    <div class="confetti-16"></div>
+    <div class="confetti-15"></div>
+    <div class="confetti-14"></div>
+    <div class="confetti-13"></div>
+    <div class="confetti-12"></div>
+    <div class="confetti-11"></div>
+    <div class="confetti-10"></div>
+    <div class="confetti-9"></div>
+    <div class="confetti-8"></div>
+    <div class="confetti-7"></div>
+    <div class="confetti-6"></div>
+    <div class="confetti-5"></div>
+    <div class="confetti-4"></div>
+    <div class="confetti-3"></div>
+    <div class="confetti-2"></div>
+    <div class="confetti-1"></div>
+    <div class="confetti-0"></div>
+</div>
     </section>
 <?php require_once './inc/footer.php' ?>

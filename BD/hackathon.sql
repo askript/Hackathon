@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 22, 2022 at 03:43 PM
+-- Generation Time: Jun 22, 2022 at 06:00 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.0
 
@@ -43,8 +43,9 @@ CREATE TABLE `results` (
 --
 
 INSERT INTO `results` (`id`, `nickname`, `earned_SQL`, `max_SQL`, `earned_algo`, `max_algo`, `earned_prog`, `max_prog`) VALUES
-(1, 'Lyzard', 2, 2, NULL, NULL, NULL, NULL),
-(3, 'a', NULL, NULL, NULL, NULL, NULL, NULL);
+(1, 'Lyzard', 6, 30, 8, 30, 25, 30),
+(3, 'a', 6, 30, NULL, NULL, NULL, NULL),
+(5, 'Mick', 9, 30, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -64,7 +65,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `nickname`, `password`) VALUES
 (4, 'Lyzard', '0a5b3913cbc9a9092311630e869b4442'),
-(11, 'a', '0cc175b9c0f1b6a831c399e269772661');
+(11, 'a', '0cc175b9c0f1b6a831c399e269772661'),
+(13, 'Mick', '6f8f57715090da2632453988d9a1501b');
 
 --
 -- Indexes for dumped tables
@@ -90,13 +92,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `results`
 --
 ALTER TABLE `results`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

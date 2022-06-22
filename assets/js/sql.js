@@ -159,4 +159,22 @@ document.getElementById("max_SQL").value = values3.length;
 
 document.querySelector('#submit_SQL').style.display = 'none'
 document.querySelector("#result").style.display = 'block'
+
+
+if (score1 > 1) {
+
+    let doc2 = document.getElementById("confet");
+
+    doc2.classList.add("confet2");
+
+
+
+
+
+}
+
+
+
+
+
 }
