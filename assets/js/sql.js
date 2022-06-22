@@ -7,6 +7,30 @@ let text4 = '<a href="https://example.com">Website</a>';
 let text5 = '<a href="https://example.com">Website</a>';
 let text6 = '<a href="https://example.com">Website</a>';
 let text7 = '<a href="https://example.com">Website</a>';
+let text8 = '<a href="https://example.com">Website</a>';
+let text9 = '<a href="https://example.com">Website</a>';
+let text10 = '<a href="https://example.com">Website</a>';
+let text11 = '<a href="https://example.com">Website</a>';
+let text12 = '<a href="https://example.com">Website</a>';
+let text13 = '<a href="https://example.com">Website</a>';
+let text14 = '<a href="https://example.com">Website</a>';
+let text15 = '<a href="https://example.com">Website</a>';
+let text16 = '<a href="https://example.com">Website</a>';
+let text17 = '<a href="https://example.com">Website</a>';
+let text18 = '<a href="https://example.com">Website</a>';
+let text19 = '<a href="https://example.com">Website</a>';
+let text20 = '<a href="https://example.com">Website</a>';
+let text21 = '<a href="https://example.com">Website</a>';
+let text22 = '<a href="https://example.com">Website</a>';
+let text23 = '<a href="https://example.com">Website</a>';
+let text24 = '<a href="https://example.com">Website</a>';
+let text25 = '<a href="https://example.com">Website</a>';
+let text26 = '<a href="https://example.com">Website</a>';
+let text27 = '<a href="https://example.com">Website</a>';
+let text28 = '<a href="https://example.com">Website</a>';
+let text29 = '<a href="https://example.com">Website</a>';
+let text30 = '<a href="https://example.com">Website</a>';
+
 
 let currentText  = [text1,text2,text3,text4,text5,text6];
 
@@ -143,13 +167,5 @@ console.log(doc)
 doc.classList.toggle("scoreX");
 document.getElementById("total").innerHTML=values3.length;
 document.getElementById("sum").innerHTML=score1;
-
 //
-
-document.getElementById("earned_SQL").value = score1;
-document.getElementById("max_SQL").value = values3.length;
-
-let submit_SQL = document.querySelector('#submit_SQL')
-document.querySelector("#result_SQL").style.display = 'block'
-submit_SQL.addEventListener('click', () => submit_SQL.style.display = 'none')
 }
