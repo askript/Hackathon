@@ -1,6 +1,9 @@
-<?php session_start(); ?>
-<?php require './inc/header.php'; ?>
-s
+
+<?php
+    session_start();
+    require './inc/header.php';
+?>
+
 <main class="page">
     <section class="clean-block features">
         <div class="container">
