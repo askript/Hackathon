@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="assets/css/styles2.css">
     <link rel="shortcut icon" href="#" />
-    <script src="assets/js/test1.js" ></script>
 </head>
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
@@ -39,6 +38,4 @@
             </div>
         </div>
     </nav>
-    <!DOCTYPE html>
-<html>
 
