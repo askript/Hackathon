@@ -150,6 +150,5 @@ document.getElementById("earned_SQL").value = score1;
 document.getElementById("max_SQL").value = values3.length;
 
 let submit_SQL = document.querySelector('#submit_SQL')
-document.querySelector("#result_SQL").style.display = 'block'
-submit_SQL.addEventListener('click', () => submit_SQL.style.display = 'none')
+submit_SQL.addEventListener('click', () => submit_SQL.style.display = 'none', document.querySelector("#result_SQL").style.display = 'block')
 }
