@@ -287,7 +287,7 @@
                 <br>
                 <div id="scoreX" class="scoreX btn-group" role="group"><a class="btn btn-primary active" role="button" href="Score.php" >Historique Scores</a>
                 <br>
-                <p > Votre score est de <span id="sum"></span> sur <span id="total"></span></p>
+                <p> Votre score est de <span id="sum"></span> sur <span id="total"></span></p>
                 </div>
             </div>
             <div class="code-editor" style="margin-top: 90px ; margin-right: 200px; height:100%" ></div>

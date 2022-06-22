@@ -20,6 +20,10 @@
         <div class="d-lg-flex align-self-center justify-content-lg-center text" style="margin: 10px;">
             <p></p><a class="btn btn-outline-light active btn-lg align-items-center wobble animated" role="button" href="StartProg.php" style="padding: 15px 16px;margin: 20px;height: 60.6px;">Commencer le quiz Programmation</a><a class="btn btn-outline-light active btn-lg align-items-center wobble animated" role="button" href="CoursProg.php" style="margin: 12px;padding: 11px 16px;height: 50.6px;width: 393.038px;">Cours De Programmation</a>
         </div>
+        <br>
+        <div>
+            <a href="./Score.php" class="btn btn-outline-light">Scores</a>
+        </div>
     </section>
 </main>
 
