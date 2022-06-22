@@ -1,4 +1,4 @@
-    <footer class="page-footer dark">
+<footer class="page-footer dark">
         <div class="footer-copyright">
             <p>© 2022&nbsp;</p>
         </div>
@@ -7,6 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/script.min.js"></script>
-    <script src="assets/js/sql.js"></script>
+    
+    <script src="assets/js/start.js"></script>
 </body>
 </html>

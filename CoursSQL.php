@@ -3,6 +3,6 @@
     require './inc/header.php'; 
 ?>
     <br><br><br><br>
-    <p>links sql</p>
+    <a href="https://sql.sh/cours"></a>
 
 <?php require_once './inc/footer.php' ?>

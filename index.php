@@ -1,17 +1,27 @@
 <?php require_once 'inc/header.php' ?>
 
     <main class="page landing-page">
+        
+        <div id="hero_title_container"  >
         <div class="clean-block clean-hero" style="background-image: url(&quot;assets/img/tech/image4.jpg&quot;);color: rgba(99,104,108,0.85);">
-            <div class="text">
+        <div class="text">
                 <h2>Quizz</h2>
-                <p>Connecté vous pour avoir les réponses de vos Quiz !</p>
+                <p><span>Connecter vous pour faire vos Quiz !</span></p>
             </div>
-        </div>
+            </div>
+	<canvas class="canvas" id="myCanvas"> </canvas>
+	<div id="particle_count" class="particle-count">-bubble count: XXX</div>
+	<a href="#" id="reset" class="reset-button">-reset</a>
+</div>
+
+        
+    
         <section class="clean-block about-us">
             <div class="container">
                 <div class="block-heading">
                     <h2 class="text-info">About Us</h2>
                     <p>Projet de dev Hackaton 2022. Voici le groupe de dev</p>
+                   
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-sm-6 col-lg-4">
@@ -25,7 +35,7 @@
                     <div class="col-sm-6 col-lg-4">
                         <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/MicrosoftTeams-image%20(6).png">
                             <div class="card-body info">
-                                <h4 class="card-title">Askia DABLA</h4>
+                                <h4 class="card-title">Askia DABAL</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
@@ -65,5 +75,6 @@
                 </div>
             </div>
         </section>
+        <script src="assets/js/start.js"></script>
 
 <?php require_once './inc/footer.php' ?>
