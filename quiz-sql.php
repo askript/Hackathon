@@ -1,4 +1,7 @@
-<?php require_once './inc/header.php'; ?>
+<?php
+    session_start();
+    require_once './inc/header.php'; 
+?>
 
     <section class="clean-block clean-services dark">
         <div class="container" style="display: flex; margin-left: 0">

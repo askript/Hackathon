@@ -1,8 +1,4 @@
-<?php 
-    if(isset($_SESSION['auth'])){
-        session_start();
-    }
-?>
+<!-- < ?php if(isset($_SESSION['auth'])){session_start();}?> -->
 <!DOCTYPE html>
 <html>
 <head>
