@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 22, 2022 at 03:20 PM
+-- Generation Time: Jun 22, 2022 at 03:43 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.0
 
@@ -32,17 +32,17 @@ CREATE TABLE `results` (
   `nickname` varchar(255) NOT NULL,
   `earned_SQL` int(11) DEFAULT NULL,
   `max_SQL` int(11) DEFAULT NULL,
-  `earned_algroritmy` int(11) DEFAULT NULL,
-  `max_algroritmy` int(11) DEFAULT NULL,
-  `earned_programation` int(11) DEFAULT NULL,
-  `max_programation` int(11) DEFAULT NULL
+  `earned_algo` int(11) DEFAULT NULL,
+  `max_algo` int(11) DEFAULT NULL,
+  `earned_prog` int(11) DEFAULT NULL,
+  `max_prog` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `results`
 --
 
-INSERT INTO `results` (`id`, `nickname`, `earned_SQL`, `max_SQL`, `earned_algroritmy`, `max_algroritmy`, `earned_programation`, `max_programation`) VALUES
+INSERT INTO `results` (`id`, `nickname`, `earned_SQL`, `max_SQL`, `earned_algo`, `max_algo`, `earned_prog`, `max_prog`) VALUES
 (1, 'Lyzard', 2, 2, NULL, NULL, NULL, NULL),
 (3, 'a', NULL, NULL, NULL, NULL, NULL, NULL);
 
