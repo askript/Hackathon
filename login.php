@@ -20,7 +20,7 @@
 ?>
 
 <br><br><br><br>
-<h1>Login N-f!fiu)w9f<</h1>
+<h1>Login</h1>
 <main class="page login-page">
     <section class="clean-block clean-form dark">
         <div class="container">
