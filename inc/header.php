@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="assets/css/styles2.css">
     <link rel="shortcut icon" href="#" />
+    <script src="https://unpkg.com/codeflask/build/codeflask.min.js"></script> 
+
 </head>
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
