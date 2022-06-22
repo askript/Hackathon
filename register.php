@@ -29,7 +29,11 @@
             $pass = md5($_POST['password']);
             $req->execute();
 
-            $user_id = $pdo->lastInsertId();
+            //$user_id = $pdo->lastInsertId();
+
+            $req = $pdo->prepare("INSERT INTO results (nickname) VALUES (:nickname)");
+            $req->bindParam(':nickname', $_POST['nickname'], PDO::PARAM_STR);
+            $req->execute();
 
             header('Location: login.php');
             exit();

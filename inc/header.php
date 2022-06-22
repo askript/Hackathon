@@ -1,3 +1,8 @@
+<?php 
+    if(isset($_SESSION['auth'])){
+        session_start();
+    }
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,20 +17,25 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="assets/css/styles2.css">
     <link rel="shortcut icon" href="#" />
-    <script src="assets/js/test1.js" ></script>
 </head>
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-        <div class="container"><a class="navbar-brand logo" href="index.php">Hackaton</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <?php if(isset($_SESSION['auth'])): ?>
+            <div class="container"><a class="navbar-brand logo" href="choix.php">Hackaton</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <?php else: ?>
+            <div class="container"><a class="navbar-brand logo" href="index.php">Hackaton</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <?php endif; ?>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="login.php">Login</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="register.php">Register</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="index.php">Logout</a></li>
+                    <?php if(isset($_SESSION['auth'])): ?>
+                        <li class="nav-item"><a class="nav-link active" href="logout.php">Logout</a></li>
+                        <?php echo "<span style='color:green'>" . $_SESSION['auth']->nickname . "</span>" ?>
+                    <?php else: ?>
+                        <li class="nav-item"><a class="nav-link active" href="login.php">Login</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="register.php">Register</a></li>
+                    <?php endif; ?>
                 </ul>
             </div>
         </div>
     </nav>
-    <!DOCTYPE html>
-<html>
 
