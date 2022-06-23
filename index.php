@@ -36,7 +36,7 @@
                         <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/MicrosoftTeams-image%20(6).png">
                             <div class="card-body info">
                                 <h4 class="card-title">Askia DABAL</h4>
-                                <p class="card-text">Apprenti dévelopeur</p>
+                                <p class="card-text">Expert JS</p>
                             </div>
                         </div>
                     </div>
@@ -44,15 +44,15 @@
                         <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/MicrosoftTeams-image%20(8).png">
                             <div class="card-body info">
                                 <h4 class="card-title">Leo RIPERT</h4>
-                                <p class="card-text">Apprenti dévelopeur</p>
+                                <p class="card-text">PHP et SQL</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4" style="padding: 9px;">
                         <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/MicrosoftTeams-image%20(10).png">
                             <div class="card-body info">
-                                <h4 class="card-title">David BECKHAM</h4>
-                                <p class="card-text">Apprenti dévelopeur</p>
+                                <h4 class="card-title">Thomas Bonnefoux</h4>
+                                <p class="card-text">Chef de projet, gestions et plans</p>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                         <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/MicrosoftTeams-image%20(2).png">
                             <div class="card-body info">
                                 <h4 class="card-title">Karl AFATOLO</h4>
-                                <p class="card-text">Apprenti dévelopeur</p>
+                                <p class="card-text">Expext</p>
                             </div>
                         </div>
                     </div>

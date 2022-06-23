@@ -2,12 +2,13 @@
     session_start();
     require_once './inc/header.php'; 
 ?>
-
+<link rel="stylesheet" href="assets/css/styles2.css">
     <section class="clean-block clean-services dark">
         <div class="container" style="display: flex; ">
             <div class="block-heading" style="margin-right: 250px; width: 200%;">
                 </br>
                 <h2 class="text-info">Quiz SQL</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
                 <form >
                     <B>Question 1:</B>
                     Que signifie SQL ?<BR>
@@ -267,7 +268,7 @@
                     </div>
                 </form>
                 <br>
-                <div id="submit_SQL" class="btn-group" role="group"><a class="btn btn-primary active" role="button" onclick="test()" >Soumettre</a></div>
+                <div id="submit" class="btn-group" role="group"><a class="btn btn-primary active" role="button" onclick="test()" >Soumettre</a></div>
                     <div id="result" style="display:none">
                         <form action="result_SQL.php" method="get">
                             <input type="hidden" value='' name='earned_SQL' id='earned_SQL'>
@@ -289,7 +290,7 @@
                 <p > Votre score est de <span id="sum"></span> sur <span id="total"></span></p>
                 </div>
             </div>
-            <div class="code-editor" style="margin-top: 90px ; width:2000px;height:1500px;position: relative;" ></div>
+            <div class="code-editor" style="margin-top: 90px ; width:2000px;height:5450px;position: relative;" ></div>
                 <script>
                     const flask = new CodeFlask('.code-editor', {
                          language: 'js',
@@ -309,7 +310,7 @@
 
         </div>
         
-   <!-- <div id="confet" class="confet">
+<div id="confet" class="confet">
     <div class="confetti-301"></div>
     <div class="confetti-300"></div>
     <div class="confetti-299"></div>
@@ -612,6 +613,8 @@
     <div class="confetti-2"></div>
     <div class="confetti-1"></div>
     <div class="confetti-0"></div> 
-</div> -->
+</div>
     </section>
+
+    <script src="assets/js/sql.js"></script>
 <?php require_once './inc/footer.php' ?>

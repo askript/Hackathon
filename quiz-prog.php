@@ -271,7 +271,7 @@
                     </div>
                 </form>
                 <br>
-                <div id="submit_prog" class="btn-group" role="group"><a class="btn btn-primary active" role="button" onclick="test()" >Soumettre</a></div>
+                <div id="submit" class="btn-group" role="group"><a class="btn btn-primary active" role="button" onclick="test()" >Soumettre</a></div>
                 <div id="result" style="display:none">
         <form action="result_prog.php" method="get">
             <input type="hidden" value='' name='earned_prog' id='earned_prog'>
@@ -287,8 +287,6 @@
                 </div>  
                 <br>
                 <hr>
-                <br>
-                <div id="scoreX" class="scoreX btn-group" role="group"><a class="btn btn-primary active" role="button" href="Score.php" >Historique Scores</a>
                 <br>
                 <p > Votre score est de <span id="sum"></span> sur <span id="total"></span></p>
                 </div>
