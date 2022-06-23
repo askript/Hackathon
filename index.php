@@ -19,8 +19,8 @@
         <section class="clean-block about-us">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info">About Us</h2>
-                    <p>Projet de dev Hackaton 2022. Voici le groupe de dev</p>
+                    <h2 class="text-info">A propos de nous </h2>
+                    <p> Projet de dev Hackaton 2022. Voici le groupe de dev </p>
                    
                 </div>
                 <div class="row justify-content-center">
