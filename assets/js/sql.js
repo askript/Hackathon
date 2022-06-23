@@ -157,7 +157,7 @@ document.getElementById("sum").innerHTML=score1;
 document.getElementById("earned_SQL").value = score1;
 document.getElementById("max_SQL").value = values3.length;
 
-document.querySelector('#submit_SQL').style.display = 'none'
+document.querySelector('#submit').style.display = 'none'
 document.querySelector("#result").style.display = 'block'
 
 

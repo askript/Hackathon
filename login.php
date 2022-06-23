@@ -8,7 +8,7 @@
         require_once './inc/db.php';
         //We get the info of the nickname the user asked to login
         $req = $pdo->prepare('SELECT * FROM users WHERE nickname = :nickname');
-        $req->execute(['nickname' => $_POST['nickname']]);
+        $req->execute(['nickname' => ucfirst($_POST['nickname'])]);
         $user = $req->fetch();
 
         //If we got an user registered at this nickname and he got the good password,

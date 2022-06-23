@@ -1,4 +1,4 @@
-<?php require_once 'inc/header.php' ?>
+<?php require_once 'inc/header.php'; ?>
 
     <main class="page landing-page">
         
@@ -28,7 +28,7 @@
                         <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/MicrosoftTeams-image%20(11).png">
                             <div class="card-body info">
                                 <h4 class="card-title">Joel MOUKOKO</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="card-text">Apprenti dévelopeur</p>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
                         <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/MicrosoftTeams-image%20(6).png">
                             <div class="card-body info">
                                 <h4 class="card-title">Askia DABAL</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="card-text">Apprenti dévelopeur</p>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                         <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/MicrosoftTeams-image%20(8).png">
                             <div class="card-body info">
                                 <h4 class="card-title">Leo RIPERT</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="card-text">Apprenti dévelopeur</p>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                         <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/MicrosoftTeams-image%20(10).png">
                             <div class="card-body info">
                                 <h4 class="card-title">David BECKHAM</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="card-text">Apprenti dévelopeur</p>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                         <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/MicrosoftTeams-image%20(2).png">
                             <div class="card-body info">
                                 <h4 class="card-title">Karl AFATOLO</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="card-text">Apprenti dévelopeur</p>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@
                         <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/MicrosoftTeams-image%20(7).png">
                             <div class="card-body info">
                                 <h4 class="card-title">Ally Sanders</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="card-text">Apprenti dévelopeur</p>
                             </div>
                         </div>
                     </div>

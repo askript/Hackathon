@@ -8,7 +8,6 @@
             <div class="block-heading">
                 </br>
                 <h2 class="text-info">Quiz SQL</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
                 <form >
                     <B>Question 1:</B>
                     Que signifie HTML ?<BR>

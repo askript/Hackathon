@@ -24,7 +24,7 @@
         //If the nickname is valid and free, and the password is good, we add the user in our database
         if(empty($errors)){
             $req = $pdo->prepare("INSERT INTO users (nickname, password) VALUES (:nickname, :password)");
-            $req->bindParam(':nickname', $_POST['nickname'], PDO::PARAM_STR);
+            $req->bindParam(':nickname', ucfirst($_POST['nickname']), PDO::PARAM_STR);
             $req->bindParam(':password', $pass, PDO::PARAM_STR);
             $pass = md5($_POST['password']);
             $req->execute();
@@ -32,7 +32,7 @@
             //$user_id = $pdo->lastInsertId();
 
             $req = $pdo->prepare("INSERT INTO results (nickname) VALUES (:nickname)");
-            $req->bindParam(':nickname', $_POST['nickname'], PDO::PARAM_STR);
+            $req->bindParam(':nickname', ucfirst($_POST['nickname']), PDO::PARAM_STR);
             $req->execute();
 
             header('Location: login.php');
